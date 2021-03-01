@@ -1,0 +1,127 @@
+:root {
+  --main: orange;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header.header {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.profile {
+  background: #eee;
+  padding: 1rem;
+  position: relative;
+}
+
+.profile h2.name {
+  font-size: 2rem;
+  position: absolute;
+  bottom: 100%;
+  background: #fff;
+  margin: 0;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  padding: 0;
+  left: 0;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  margin-right: 1rem;
+  position: absolute;
+  right: 100%;
+  border: 3px solid var(--main);
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  grid-gap: 2rem;
+  padding: 4rem 0;
+}
+
+section.col-left {
+  text-align: right;
+  border-right: 3px solid var(--main);
+  padding-right: 2rem;
+}
+
+article + article {
+  margin-top: 3rem;
+}
+
+article h3 {
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+  font-weight: 700;
+}
+
+section.col-left ul {
+  direction: rtl;
+  list-style-position: inside;
+}
+
+section.col-left ul li span{
+  direction: ltr;
+  unicode-bidi: embed;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+.company {
+
+  margin-bottom: 1rem;
+}
+
+.position {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.position b {
+  font-weight: 500;
+}
+
+.time {
+  font-size: 15px;
+  color: #303030;
+}
+
+.highlight {
+  margin-top: .25rem;
+}
+
+li span {
+  color: #000;
+}
+
+ul {
+  color: var(--main);
+}
+
+.text-main {
+  color: var(--main);
+}
