@@ -106,8 +106,8 @@ ul {
 }
 
 .time {
-  font-size: 15px;
-  color: #303030;
+  font-size: 14px;
+  color: var(--main);
 }
 
 .highlight {
@@ -124,4 +124,9 @@ ul {
 
 .text-main {
   color: var(--main);
+}
+
+.group {
+  display: flex;
+  justify-content: space-between;
 }
